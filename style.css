@@ -76,27 +76,28 @@ body
     .icon_bar
     {
         box-shadow:         7px 9px 20px 0px rgba(50, 50, 50, 0.9);
-      margin-top: 10px;
-      margin-bottom: 10px;
-      float: left;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        float: left;
         font-size: 70px;
-  text-align:center;
+        text-align:center;
         width: 90px;
         height: 90px;
-
-  background-color:#59182b;
-  border-radius: 50%;
-
-
+        background-color:#59182b;
+        border-radius: 50%;
     }
-.icon_bar:hover
-{
-  cursor: pointer;
-  background-color: white;
-  color:#59182b;
-  transition: 500ms;
-}
-
+    .icon_bar a:visited
+    {
+      text-decoration:  none;
+      color: inherit;
+    }
+    .icon_bar:hover
+    {
+      cursor: pointer;
+      background-color: white;
+      color:#59182b;
+      transition: 500ms;
+    }
 
     header
     {
@@ -106,7 +107,8 @@ body
 
     #search_bar
     {
-      margin-top: 200px;
+      margin-top: 100px;
+      margin-bottom: 100px;
       margin-left: auto;
       margin-right: auto;
     }

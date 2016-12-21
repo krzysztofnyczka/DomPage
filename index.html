@@ -4,36 +4,36 @@
     <title>Chrome Homepage</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge'chrome=1"/>
     <meta charset="utf-8" />
-    
+
     <script src="https://use.fontawesome.com/7c4360b2f1.js"></script>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 
-	
-	
-	
-	
-	
+
+
+
+
+
 	  <script>
 			function odliczanie()
 		{
 			var dzisiaj = new Date();
-			
-			
+
+
 			var godzina = dzisiaj.getHours();
 			if (godzina<10) godzina = "0"+godzina;
-			
+
 			var minuta = dzisiaj.getMinutes();
 			if (minuta<10) minuta = "0"+minuta;
 
-			
+
 			document.getElementById("ladny_zegar").innerHTML = godzina+":"+minuta;
-			 
+
 			 setTimeout("odliczanie()",1000);
 		}
     </script>
-	
+
 </head>
 <body onload="odliczanie();">
 <header>
@@ -44,23 +44,23 @@
     <section>
         <div id="ladny_zegar" >
         </div>
-        
-        
-        <div id="big_container">
-            
-                <div class="icon_bar" id="i1"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </div>
-                <div class="icon_bar" id="i2"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
-                <div class="icon_bar" id="i3"> <i class="fa fa-soundcloud" aria-hidden="true"></i> </div>
-				
-				<div id="search_bar">
+        <div id="search_bar">
 					<input type="text" id="search" placeholder="Search..">
 				</div>
-				
-                <div class="icon_bar" id="i4"> <i class="fa fa-youtube-play" aria-hidden="true"></i></div>
-                <div class="icon_bar" id="i5"> <i class="fa fa-reddit-square" aria-hidden="true"></i> </div>
-                <div class="icon_bar" id="i6"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </div>
-                
-            
+
+        <div id="big_container">
+
+                <div class="icon_bar" id="i1"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a></div>
+                <div class="icon_bar" id="i2"> <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a> </div>
+                <div class="icon_bar" id="i3"> <a href="https://soundcloud.com/stream" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a> </div>
+
+
+
+                <div class="icon_bar" id="i4"> <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
+                <div class="icon_bar" id="i5"> <a href=""><a href="https://www.reddit.com/" target="_blank"><i class="fa fa-reddit-square" aria-hidden="true"></i></a> </div>
+                <div class="icon_bar" id="i6"> <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a> </div>
+
+
           </div>
     </section>
 </body>
