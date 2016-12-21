@@ -93,13 +93,12 @@ background: url("tlo.jpeg");
   transition: opacity 0.6s;
 
     }
-.icon_bar:hover
-{
-  cursor: pointer;
-  opacity: 0.5;
-
-  transition: 600ms;
-}
+    .icon_bar:hover
+    {
+      cursor: pointer;
+      opacity: 0.5;
+      transition: 500ms;
+    }
 
     }
     .icon_bar a:visited
@@ -107,13 +106,7 @@ background: url("tlo.jpeg");
       text-decoration:  none;
       color: inherit;
     }
-    .icon_bar:hover
-    {
-      cursor: pointer;
-      background-color: white;
-      color:#59182b;
-      transition: 500ms;
-    }
+
 
 
     header
