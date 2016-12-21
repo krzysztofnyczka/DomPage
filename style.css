@@ -1,137 +1,133 @@
-        body
-		{
-            font-family: 'Roboto', sans-serif;
-            background: url("tlo.jpeg");
-			background-position: center;
-            font-size: 26px;
-            margin: 0;
-            color: white;
-        }
-        
-        section
-		{
-			align:center;
-        }
-        
-        #ladny_zegar
-        {
-            font-weight: 400;
-            letter-spacing: 30px;
-            font-size: 200px;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            height:240px;
-            width: 650px;
-            background-color: rgb(0, 0, 0);
-            border: 1px solid black;
-			
-			-webkit-box-shadow: 7px 9px 20px 0px rgba(50, 50, 50, 0.9);
-			-moz-box-shadow:    7px 9px 20px 0px rgba(50, 50, 50, 0.9);
-			box-shadow:         7px 9px 20px 0px rgba(50, 50, 50, 0.9);
-        }
-		#ladny_zegar:hover
-		{
-			cursor:default;
-		}
-        
-        #big_container
-        {
-			border-radius:50%;
-			margin-top: 50px;
-            width: 500px;
-            height: 500px;
-            border: 3px black solid;
-            margin-left:auto;
-            margin-right: auto;
-        }
-        #i1
-		{
-			position:fixed;
-			margin-top: 0px;
-			margin-left: 200px;
-			margin-right: 200px;
-		}
-		#i2
-		{	
-			position:fixed;
-			margin-top: 100px;
-			margin-left: 0px;
-			margin-right: 200px;
-		}
-		#i3
-		{	
-			position:fixed;
-			margin-top: 100px;
-			margin-left: 400px;
-			margin-right: 0px;
-		}
-		#i4
-		{	
-			position:fixed;
-			margin-top: 30px;
-			margin-left: 0px;
-			margin-right: 400px;
-		}
-		#i5
-		{	
-			position:fixed;
-			margin-top: 30px;
-			margin-left: 400px;
-			margin-right: 0px;
-		}
-		#i6
-		{	
-			position:fixed;
-			margin-top: 140px;
-			margin-left: 200px;
-			margin-right: 200px;
-		}
-        .icon_bar
-        {
-            font-size: 70px;
-			text-align:center;
-            width: 90px;
-            height: 90px;
-            padding: 5px;
-			background-color:#59182b;
-			border-radius: 50%;
-			
-        }
-		.icon_bar:hover
-		{
-			cursor: pointer;
-			background-color: white;
-			color:#59182b;
-			transition: 500ms;
-		}
-		
-        
-        header
-        {
-            height: 100px;
-            width: 100%;
-        }
-        
-        #search_bar
-        {
-          margin-top: 200px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        
-        #search
-        {
-          margin-left: auto;
-          margin-right: auto;
-          display: block;
-          width: 280px;
-          height: 30px;
-		  padding: 15px;
-          border: 3px solid #8d2545;
-		  border-radius: 15px;
-		  background-color:white;
-          color: #8d2545;
-          align: center;
-		  font-size: 28px;		  
-        }
+body
+{
+        font-family: 'Roboto', sans-serif;
+        background: url("tlo.jpeg");
+  background-position: center;
+        font-size: 26px;
+        margin: 0;
+        color: white;
+    }
+
+    section
+{
+  align:center;
+    }
+
+    #ladny_zegar
+    {
+        font-weight: 400;
+        letter-spacing: 30px;
+        font-size: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        height:240px;
+        width: 650px;
+        background-color:#59182b;
+
+
+  -webkit-box-shadow: 7px 9px 20px 0px rgba(50, 50, 50, 0.9);
+  -moz-box-shadow:    7px 9px 20px 0px rgba(50, 50, 50, 0.9);
+  box-shadow:         7px 9px 20px 0px rgba(50, 50, 50, 0.9);
+    }
+#ladny_zegar:hover
+{
+  cursor:default;
+}
+
+    #big_container
+    {
+
+        margin-top: 50px;
+        width: 500px;
+        height: 500px;
+
+        margin-left:auto;
+        margin-right: auto;
+    }
+#i1
+{
+  margin-right: 57px;
+
+}
+#i2
+{
+  margin-right: 57px;
+  margin-left: 57px;
+}
+#i3
+{
+  margin-left: 57px;
+}
+#i4
+{
+  margin-right: 57px;
+
+}
+#i5
+{
+  margin-right: 57px;
+  margin-left: 57px;
+}
+#i6
+{
+  margin-left: 57px;
+}
+    .icon_bar
+    {
+        box-shadow:         7px 9px 20px 0px rgba(50, 50, 50, 0.9);
+      margin-top: 10px;
+      margin-bottom: 10px;
+      float: left;
+        font-size: 70px;
+  text-align:center;
+        width: 90px;
+        height: 90px;
+
+  background-color:#59182b;
+  border-radius: 50%;
+
+
+    }
+.icon_bar:hover
+{
+  cursor: pointer;
+  background-color: white;
+  color:#59182b;
+  transition: 500ms;
+}
+
+
+    header
+    {
+        height: 100px;
+        width: 100%;
+    }
+
+    #search_bar
+    {
+      margin-top: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #search
+    {
+      box-shadow:  7px 9px 20px 0px rgba(50, 50, 50, 0.9);
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 280px;
+      height: 30px;
+      padding: 15px;
+      border: 3px solid #8d2545;
+      border-radius: 15px;
+      background-color:white;
+      color: #8d2545;
+      align: center;
+      font-size: 28px;
+    }
+    #search:focus
+    {
+      outline: none;
+    }
